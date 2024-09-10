@@ -16,13 +16,37 @@ public class Bai4_tinhtonghieutichthuong {
         int a = sc.nextInt();
         System.out.println("Nhap so b:");
         int b = sc.nextInt();
-        int tong = a + b;
+        int tong = tong(a, b);
         System.out.println(a + " + " + b + " = "+ tong);
-        int hieu = a - b;
+        int hieu = hieu(a,b);
         System.out.println(a + " - " + b + " = "+ hieu);
-        int tich = a * b;
+        int tich = tich(a,b);
         System.out.println(a + " * " + b + " = "+ tich);
-        double thuong = (double)a/b;
+        String thuong = thuong(a,b);
         System.out.println(a + " / " + b + " = " + thuong);
     }
-}
+    private static int tong(int a, int b)
+    {
+        return a + b;
+    }   
+    private static int hieu(int a, int b)
+    {
+        return a - b;
+    }
+    private static int tich(int a, int b)
+    {
+        return a * b;
+    }
+    private static String thuong(int a, int b)
+    {
+        if (b != 0)
+        {
+            return Double.toString((double)a / b); 
+        } 
+        else
+        {
+            return "Khong the chia cho 0";
+        }       
+    }
+}  
+
