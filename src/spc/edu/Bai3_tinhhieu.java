@@ -17,7 +17,7 @@ public class Bai3_tinhhieu {
         System.out.println("Nhap so b:");
         int b = sc.nextInt();
         int hieu = a - b;
-        System.out.println(a+" - "+b+" = "+hieu);
+        System.out.println(a + " - "+ b +" = "+ hieu);
         
     }
 }
