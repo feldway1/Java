@@ -27,6 +27,6 @@ public class Bai12_canchi {
     static String TinhChi (int nam)
     {
         String[] chiArray = {"Than","Dau","Tuat","Hoi","Ty","Suu","Dan","Meo","Thin","Ty","Ngo","Mui"};
-                return chiArray [nam%12];
+        return chiArray [nam%12];
     }
 }
