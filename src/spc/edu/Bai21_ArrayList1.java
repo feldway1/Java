@@ -27,9 +27,6 @@ public class Bai21_ArrayList1 {
         {
           //String x = (String) b.get(i);
            System.out.print(b.get(i)+ "  ");
-        }
-        
-        //b.remove(8);
-        
+        }        
     }
 }
