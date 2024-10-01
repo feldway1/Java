@@ -4,7 +4,7 @@
  */
 package spc.edu;
 import java.util.Scanner;
-import spc.edu.SinhVien;
+//import spc.edu.SinhVien;
 /**
  *
  * @author Administrator
@@ -44,7 +44,7 @@ public class Bai26_SapxepObject {
         }
         for (int j = 0; j < n; j++){
             System.out.print("Ho va ten SV: " + sv[j].getTen());
-            System.out.print("Diem SV: " + sv[j].getDiem());
+            System.out.print("\tDiem SV: " + sv[j].getDiem());
             if(sv[j].getDiem() < 5){
                 System.out.println(" Hoc luc yeu");
             }else if(sv[j].getDiem() <= 6){
