@@ -4,26 +4,12 @@
  */
 package spc.edu;
 import java.util.Scanner;
+import spc.edu.SinhVien;
 /**
  *
  * @author Administrator
  */
-class SinhVien {
-    private String ten;
-    private double diem;
-    public void setTen(String ten){
-        this.ten = ten;
-    }
-    public void setDiem(double diem){
-        this.diem = diem;
-    }
-    public double getDiem(){
-        return diem;
-    }
-    public String getTen(){
-        return ten;
-    }
-}
+
 public class Bai26_SapxepObject {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -60,13 +46,13 @@ public class Bai26_SapxepObject {
             System.out.print("Ho va ten SV: " + sv[j].getTen());
             System.out.print("Diem SV: " + sv[j].getDiem());
             if(sv[j].getDiem() < 5){
-                System.out.println("Hoc luc yeu");
+                System.out.println(" Hoc luc yeu");
             }else if(sv[j].getDiem() <= 6){
-                System.out.println("Hoc luc TB");
+                System.out.println(" Hoc luc TB");
             }else if(sv[j].getDiem() < 8){
-                System.out.println("Hoc luc kha");
+                System.out.println(" Hoc luc kha");
             }else{
-                System.out.println("Hoc luc gioi");
+                System.out.println(" Hoc luc gioi");
             }
         }
     }
